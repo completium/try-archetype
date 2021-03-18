@@ -1,0 +1,9 @@
+archetype contract_called
+
+variable n : nat = 0
+
+entry set_n(p : nat) {
+  n := p
+}
+
+// FIXME: implements a getter named get_n for n value

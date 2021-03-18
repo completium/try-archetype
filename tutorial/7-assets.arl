@@ -1,0 +1,45 @@
+archetype assets
+
+enum color =
+| White
+| Yellow
+| Red
+| Blue
+
+asset vehicle {
+   vin : string;
+   c : color = Yellow;
+   nbrepairs : nat = 0;
+   lastrepair : date = 2020-01-01;
+} initialized by {
+  {"vin0000"; White;  0; 2020-01-01};
+  {"vin0001"; Yellow; 0; 2020-01-01};
+  {"vin0002"; White;  0; 2020-01-01};
+  {"vin0003"; Red;    0; 2020-01-01};
+  {"vin0004"; Red;    0; 2020-01-01};
+  {"vin0005"; Blue;   0; 2020-01-01};
+  {"vin0006"; White;  0; 2020-01-01};
+  {"vin0007"; Blue;   0; 2020-01-01};
+  {"vin0008"; Blue;   1; 2019-01-01};
+  {"vin0009"; Red;    3; 2019-04-01};
+  {"vin0010"; White;  2; 2019-03-01};
+  {"vin0011"; Yellow; 2; 2019-02-01}
+}
+
+entry addvehicle (pvin : string) {
+  // add a vehicle with pvin key to the collection
+}
+
+entry repair (k : string) {
+  // FIXME: repair the vehicule with k key
+  // repair must increment `nbrepairs` and update `lastrepair` with the current date
+}
+
+entry repair_oldest() {
+  // FIXME: repair the 3 last vehicules sorted by lastrepair
+}
+
+entry repaint_repaired (newc : color) {
+  // FIXME: repair AND repaint all vehicule wich have at least one repair
+  // repaint : assign `newc` value to color field
+}

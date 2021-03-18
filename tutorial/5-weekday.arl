@@ -1,0 +1,16 @@
+archetype weekday
+
+variable n : nat = 0
+
+entry weekday (d : date) {
+  // FIXME: compute weekday for d date and assign this value to n
+  // weekday takes a date d and returns:
+  // 0 if sunday
+  // 1 if monday
+  // 2 if tuesday
+  // 3 if wednesday
+  // 4 if thursday
+  // 5 if friday
+  // 6 if saturday
+  // hint: use arithmetic operators with duration
+}

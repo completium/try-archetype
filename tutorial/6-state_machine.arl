@@ -1,0 +1,31 @@
+archetype state_machine
+
+states =
+| Created initial
+| InProgress
+| Interrupted
+| Completed
+
+variable value : nat = 0
+
+entry inc_value () {
+  value += 1
+}
+
+transition init () {
+  from Created
+  to InProgress
+  when { transferred > 3tz }
+  with effect { () /* nothing */}
+}
+
+// FIXME: implement a transition named complete
+// from InProgress to Completed
+// with value must be strictly greater than 1
+// and effect which transfer the totally balance of
+// the contract to caller
+
+// FIXME: implement a transition named interrupt
+// from InProgress to Interrupted
+// with effect which transfer the half of balance of
+// the contract to caller

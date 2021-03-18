@@ -1,0 +1,7 @@
+archetype rat_transfer
+
+constant r : rational = 70%
+
+entry payback () {
+  // FIXME: transfer 70% of the contract balance to caller
+}

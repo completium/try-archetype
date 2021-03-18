@@ -1,0 +1,15 @@
+archetype exec_condition
+
+variable value : nat = 0
+
+constant admin : address = @tz1MZrh8CvYkp7BfLQMcm6mg5FvL5HRZfACw
+
+entry main(v : nat) {
+  // FIXME: this entry must be called only by admin address,
+  // the value v must be between 10 (included) and 20 (strictly)
+  // and this value must be even otherwise it must be failed with
+  // this following message : `Expected even value`
+  effect {
+     value := v;
+  }
+}
