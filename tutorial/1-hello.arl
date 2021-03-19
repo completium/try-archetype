@@ -2,6 +2,8 @@ archetype hello
 
 variable value : string = ""
 
+// See help at the following address:  https://completium.com/docs/dapp-tools/archetype
+
 entry main () {
   // FIXME: assign value `Hello Tezos World`
 }
