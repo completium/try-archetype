@@ -1,3 +1,5 @@
-# try-archetype
+# Try Archetype
 
-Click [here](./tutorial/1-hello.arl) to test
+Welcome
+
+Click [here](./tutorial/1-hello.arl) to start tutorial
