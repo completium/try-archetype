@@ -16,8 +16,7 @@ entry inc_value () {
 }
 
 transition init () {
-  from Created
-  to InProgress
+  from Created to InProgress
   when { transferred > 3tz }
   with effect { () /* nothing */}
 }
