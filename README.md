@@ -6,7 +6,7 @@
 Welcome to the Archetype Gitpod environement. It comes with the following installed packages:
 * Archetype 1.2.2
 * Archetype extension v
-* Completium CLI
+* [Completium CLI](https://compleitum.com/docs/dapp-tools/completium-cli)
 * Tezos client
 * Taquito
 
