@@ -1,3 +1,7 @@
+// Get instructions and commands at the following address:
+// https://completium.com/docs/dapp-tools/tutorials/archetype-rattrans
+// (ctrl+click to follow link)
+
 archetype rat_transfer
 
 constant r : rational = 70%

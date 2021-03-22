@@ -1,3 +1,7 @@
+// Get instructions and commands at the following address:
+// https://completium.com/docs/dapp-tools/tutorials/archetype-datedur
+// (ctrl+click to follow link)
+
 archetype time_window
 
 variable creation : date = now
