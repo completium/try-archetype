@@ -1,4 +1,3 @@
-# Try Archetype
 
 ![alt text](./img/archetype-logo.png)
 
