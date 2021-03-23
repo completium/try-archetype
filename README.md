@@ -13,7 +13,7 @@ You can developp, deploy, call and test a smart contract on the Tezos blockchain
 
 ## Archetype tutorial
 
-The [tutorial](./tutorial) directory provides 8 basic exercises to discover Archetype:
+The `tutorial` directory provides 8 basic exercises to discover Archetype:
 
 |  | File | Description |
 | -- | -- | :-- |
