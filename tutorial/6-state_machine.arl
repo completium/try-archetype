@@ -18,17 +18,6 @@ transition init () {
   with effect { () /* nothing */}
 }
 
-// FIXME: implement a transition named complete
-// from InProgress to Completed
-// with value must be strictly greater than 1
-// and effect which transfer the totally balance of
-// the contract to caller
-
-// FIXME: implement a transition named interrupt
-// from InProgress to Interrupted
-// with effect which transfer the half of balance of
-// the contract to caller
-
 // Solution at the following address:
 // https://completium.com/docs/dapp-tools/tutorials/archetype-statem
 // (ctrl+click to follow link)
