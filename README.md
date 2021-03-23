@@ -42,21 +42,15 @@ $ completium-cli show accounts:
 
 You may want to register your own test account with a [faucet](https://faucet.tzalpha.net/) file:
 
-```bash
-$ completium-cli generate account <ACCOUNT_NAME> --from-faucet <FAUCET_FILE>
-```
+`$ completium-cli generate account <ACCOUNT_NAME> --from-faucet <FAUCET_FILE>`
 
 It is *strongly* advised to develop and test on the test network. Check you are interacting with the test network with:
 
-```bash
-$ completium-cli show endpoint
-```
+`$ completium-cli show endpoint`
 
 Deploy a contract:
 
-```
-$ completium-cli deploy <FILE.arl>
-```
+`$ completium-cli deploy <FILE.arl>`
 
 The entire list of commands is available [here](https://completium.com/docs/dapp-tools/completium-cli).
 
