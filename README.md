@@ -11,6 +11,12 @@ Welcome to the Archetype Gitpod environement. It comes with the following instal
 
 You can developp, deploy, call and test a smart contract on the Tezos blockchain.
 
+## Your journey start here!
+
+Open [Hello Tezos world.arl](./tutorial/1-hello.arl), fix the code, deploy and call the contract.
+
+Then continue with tutorial's step 2 below.
+
 ## Archetype tutorial
 
 The `tutorial` directory provides 8 basic exercises to discover Archetype:
