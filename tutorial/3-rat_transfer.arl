@@ -1,9 +1,20 @@
-// Get instructions and commands at the following address:
-// https://completium.com/docs/dapp-tools/tutorials/archetype-rattrans
-// (ctrl+click to follow link)
 
 archetype rat_transfer
 
 entry payback () {
   // FIXME: transfer 70% of the contract balance to caller
 }
+
+// Solution at the following address:
+// https://completium.com/docs/dapp-tools/tutorials/archetype-rattrans
+// (ctrl+click to follow link)
+
+// Commands to DEPLOY contract (in Terminal window below):
+// cd tutorial
+// completium-cli deploy 3-rat_transfer.arl
+
+// Command to CALL the contract (in Terminal window below):
+// completium-cli call 3-rat_transfer.arl --with 14
+
+// Command to VIEW the contract in BETTER CALL DEV (ctrl+click the generated URL)
+// completium-cli show url 3-rat_transfer.arl

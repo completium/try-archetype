@@ -1,6 +1,3 @@
-// Get instructions and commands at the following address:
-// https://completium.com/docs/dapp-tools/tutorials/archetype-statem
-// (ctrl+click to follow link)
 archetype state_machine
 
 states =
@@ -31,3 +28,7 @@ transition init () {
 // from InProgress to Interrupted
 // with effect which transfer the half of balance of
 // the contract to caller
+
+// Solution at the following address:
+// https://completium.com/docs/dapp-tools/tutorials/archetype-statem
+// (ctrl+click to follow link)

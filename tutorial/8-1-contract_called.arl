@@ -1,6 +1,3 @@
-// Get instructions and commands at the following address:
-// https://completium.com/docs/dapp-tools/tutorials/archetype-callcontr
-// (ctrl+click to follow link)
 
 archetype contract_called
 
@@ -11,3 +8,7 @@ entry set_n(p : nat) {
 }
 
 // FIXME: implements a getter named get_n for n value
+
+// Solution at the following address:
+// https://completium.com/docs/dapp-tools/tutorials/archetype-callcontr
+// (ctrl+click to follow link)

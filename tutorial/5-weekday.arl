@@ -1,6 +1,3 @@
-// Get instructions and commands at the following address:
-// https://completium.com/docs/dapp-tools/tutorials/archetype-datearith
-// (ctrl+click to follow link)
 
 archetype weekday
 
@@ -18,3 +15,21 @@ entry weekday (d : date) {
   // 6 if saturday
   // hint: use arithmetic operators with duration
 }
+
+// Solution at the following address:
+// https://completium.com/docs/dapp-tools/tutorials/archetype-datearith
+// (ctrl+click to follow link)
+
+// Solution at the following address:
+// https://completium.com/docs/dapp-tools/tutorials/archetype-datedur
+// (ctrl+click to follow link)
+
+// Commands to DEPLOY contract (in Terminal window below):
+// cd tutorial
+// completium-cli deploy weekday.arl
+
+// Command to CALL the contract (in Terminal window below):
+// completium-cli call weekday.arl --with 14
+
+// Command to VIEW the contract in BETTER CALL DEV (ctrl+click the generated URL)
+// completium-cli show url weekday.arl

@@ -1,7 +1,3 @@
-// Get instructions and commands at the following address:
-// https://completium.com/docs/dapp-tools/tutorials/archetype-callcontr
-// (ctrl+click to follow link)
-
 
 archetype contract_caller
 
@@ -15,3 +11,7 @@ entry inspect(addr : address) {
   // FIXME: call entry "%get_n" from addr address contract
   // with `set_r` callback, which store the result value to r of this contract
 }
+
+// Solution at the following address:
+// https://completium.com/docs/dapp-tools/tutorials/archetype-callcontr
+// (ctrl+click to follow link)

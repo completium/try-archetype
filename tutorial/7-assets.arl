@@ -1,6 +1,3 @@
-// Get instructions and commands at the following address:
-// https://completium.com/docs/dapp-tools/tutorials/archetype-assets
-// (ctrl+click to follow link)
 
 archetype assets
 
@@ -47,3 +44,7 @@ entry repaint_repaired (newc : color) {
   // FIXME: repair AND repaint all vehicule wich have at least one repair
   // repaint : assign `newc` value to color field
 }
+
+// Solution at the following address:
+// https://completium.com/docs/dapp-tools/tutorials/archetype-assets
+// (ctrl+click to follow link)

@@ -1,6 +1,3 @@
-// Get instructions and commands at the following address:
-// https://completium.com/docs/dapp-tools/tutorials/archetype-execcond
-// (ctrl+click to follow link)
 
 archetype exec_condition
 
@@ -17,3 +14,17 @@ entry main(v : nat) {
      value := v;
   }
 }
+
+// Solution at the following address:
+// https://completium.com/docs/dapp-tools/tutorials/archetype-execcond
+// (ctrl+click to follow link)
+
+// Commands to DEPLOY contract (in Terminal window below):
+// cd tutorial
+// completium-cli deploy 2-exec_condition.arl
+
+// Command to CALL the contract (in Terminal window below):
+// completium-cli call 2-exec_condition.arl --with 14
+
+// Command to VIEW the contract in BETTER CALL DEV (ctrl+click the generated URL)
+// completium-cli show url 2-exec_condition.arl

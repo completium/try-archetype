@@ -1,6 +1,3 @@
-// Get instructions and commands at the following address:
-// https://completium.com/docs/dapp-tools/tutorials/archetype-datedur
-// (ctrl+click to follow link)
 
 archetype time_window
 
@@ -11,3 +8,17 @@ entry payback_after_period () {
   // and the call of the contract must be after the creation date plus 5 minutes and 10 seconds
   // for the effect, the contract balance must be transferred to caller
 }
+
+// Solution at the following address:
+// https://completium.com/docs/dapp-tools/tutorials/archetype-datedur
+// (ctrl+click to follow link)
+
+// Commands to DEPLOY contract (in Terminal window below):
+// cd tutorial
+// completium-cli deploy 4-time_window.arl
+
+// Command to CALL the contract (in Terminal window below):
+// completium-cli call 4-time_window.arl --with 14
+
+// Command to VIEW the contract in BETTER CALL DEV (ctrl+click the generated URL)
+// completium-cli show url 4-time_window.arl
