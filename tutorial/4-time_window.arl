@@ -15,10 +15,10 @@ entry payback_after_period () {
 
 // Commands to DEPLOY contract (in Terminal window below):
 // cd tutorial
-// completium-cli deploy 4-time_window.arl
+// completium-cli deploy 4-time_window.arl --amount 5
 
 // Command to CALL the contract (in Terminal window below):
-// completium-cli call 4-time_window.arl --with 14
+// completium-cli call 4-time_window.arl
 
 // Command to VIEW the contract in BETTER CALL DEV (ctrl+click the generated URL)
 // completium-cli show url 4-time_window.arl
