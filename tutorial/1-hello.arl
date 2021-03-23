@@ -6,6 +6,7 @@ variable value : string = ""
 
 entry main () {
   // FIXME: assign value `Hello Tezos World`
+  // value := "Hello Tezos World"
 }
 
 // Solution at the following address:
