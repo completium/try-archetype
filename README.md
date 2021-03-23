@@ -78,6 +78,17 @@ Other commands are available.
 
 Click [here](https://completium.com/dapps) to learn how to developp DApps with 9 real examples spanning various domains and real life situations: DEX, DeFi, NFT, Gaming, Governance, ...
 
+|  | DApp | Description |
+| -- | -- | :-- |
+| 1 | [Fidelity program](https://completium.com/docs/dapp-miles/) | Customers of a service (transport, gaming, grocery, ...) receive miles and trade them in for gifts, cash-back, or any kind of reward. |
+| 2 | [Connected object](https://completium.com/docs/dapp-iot/) | Switch on for a certain duration or interrupt an online bulb connected to a Tezos smart contract, by transferring fund to this smart contract. |
+| 3 | [Idea box](https://completium.com/docs/dapp-ideabox/) | An online retail company provides an ideabox for customers and/or employees to post ideas to improve customer experience. |
+| 4 | [2048 Competition](https://completium.com/docs/dapp-game/) | Win the competition of the famous 2048 game by sliding numbered tiles that pops up at random position on the grid and obtain the highest score. |
+| 5 | [Online payment](https://completium.com/docs/dapp-escrow/) | An online retailer provides a decentralized process to transfer payment from buyer to seller without the need for a third party. |
+| 6 | [Collectible cards](https://completium.com/docs/dapp-nonfungible/) | The cryptobot company is issuing a hundred collectible robot cards. Build your optimal card deck by buying and selling them online! |
+| 7 | [DEX](https://completium.com/docs/dapp-dex/) | A Decentralized Exchange (DEX) enbable customers to trade cryptocurrencies without the need for an intermediary.|
+| 8 | [Zero-Coupon bond](https://completium.com/docs/dapp-zcb/) | Use your company’s online DeFi solution to deploy a templated Zero Coupon bond contract on the Tezos blockchain for your customers. |
+| 9 | Auction | Participate in an blockchain-powered online auction of exceptional rare paintings and don’t forget to overbid! (coming soon ...) |
 ## Smart Contracts base
 
 The `contracts` directory (on the left hand side panel) provides 30+ contracts to start with either to learn the Archetype language or to bootstrap your project from.
