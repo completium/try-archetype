@@ -9,7 +9,7 @@ Welcome to the Archetype Gitpod environement. It comes with the following instal
 * Tezos client
 * Taquito
 
-You can developp, deploy, call and test a smart contract on the Tezos blockchain.
+You can develop, deploy, call and test a smart contract on the Tezos blockchain.
 
 ## Your journey start here!
 
