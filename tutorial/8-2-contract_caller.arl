@@ -7,7 +7,11 @@ archetype contract_caller
 
 variable r : nat = 0
 
+entry set_r(p : nat) {
+  r := p
+}
+
 entry inspect(addr : address) {
   // FIXME: call entry "%get_n" from addr address contract
-  // with a callback which store the result value to r of this contract
+  // with `set_r` callback, which store the result value to r of this contract
 }
