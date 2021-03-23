@@ -36,9 +36,7 @@ You can use completium in VS Code in the Terminal (Menu Terminal/New Terminal).
 
 Show registered accounts
 
-```
-$ completium-cli show accounts:
-```
+`$ completium-cli show accounts`
 
 You may want to register your own test account with a [faucet](https://faucet.tzalpha.net/) file:
 
