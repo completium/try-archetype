@@ -52,13 +52,15 @@ It is *strongly* advised to develop and test on the test network. Check you are 
 
 `$ completium-cli show endpoint`
 
+Switch endpoint:
+
+`$ completium-cli switch endpoint`
+
 Deploy a contract:
 
 `$ completium-cli deploy <FILE.arl>`
 
 The entire list of commands is available [here](https://completium.com/docs/dapp-tools/completium-cli).
-
-Deploy a contract
 
 ## Archetype VS Code extension
 
