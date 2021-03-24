@@ -13,7 +13,7 @@ You can develop, deploy, call and test a smart contract on the Tezos blockchain.
 
 ## Your journey start here!
 
-Open [1-hello.arl](./tutorial/1-hello.arl) in the tutorial directory (or click the link), fix the code, deploy and call the contract.
+Open [1-hello.arl](./tutorial/1-hello.arl) in the `tutorial` directory (or click the link), fix the code, deploy and call the contract.
 
 Then continue with tutorial's step 2 below.
 
