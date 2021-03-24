@@ -33,7 +33,7 @@ entry addvehicle (pvin : string) {
 
 entry repair (k : string) {
   // FIXME: repair the vehicule with k key
-  // repair must increment `nbrepairs` and update `lastrepair` with the current date
+  // repair must increment `nbrepairs` and update `lastrepair` with current date
 }
 
 entry repair_oldest() {

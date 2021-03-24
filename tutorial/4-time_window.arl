@@ -4,9 +4,10 @@ archetype time_window
 variable creation : date = now
 
 entry payback_after_period () {
-  // FIXME: the contract balance must be positive
-  // and the call of the contract must be after the creation date plus 5 minutes and 10 seconds
-  // for the effect, the contract balance must be transferred to caller
+  // FIXME: implement the following execution conditions:
+  // ** contract balance must be positive
+  // ** the call to the contract must be after the creation date plus 5 minutes and 10 seconds
+  // ** the effect of the contract balance is to transfer balance to caller
 }
 
 // Solution at the following address:

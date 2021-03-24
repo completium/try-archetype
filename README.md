@@ -24,7 +24,7 @@ The `tutorial` directory provides 8 basic exercises to discover Archetype:
 |  | File | Description |
 | -- | -- | :-- |
 | 1 | [Hello Tezos world](./tutorial/1-hello.arl) | Write and deploy your first contract |
-| 2 | [Execution conditions](./tutorial/2-exec_conditions.arl) | Syntax to establish business rules to execute an entry point |
+| 2 | [Execution conditions](./tutorial/2-exec_condition.arl) | Syntax to establish business rules to execute an entry point |
 | 3 | [Rational and transfer](./tutorial/3-rat_transfer.arl) | Use `rational` type for business formula |
 | 4 | [Date and duration](./tutorial/4-time_window.arl) | Use `duration` to establish time based execution conditions
 | 5 | [Dates arithmetic](./tutorial/5-weekday.arl) | Compute day of the week from date
