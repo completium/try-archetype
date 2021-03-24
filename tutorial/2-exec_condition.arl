@@ -6,10 +6,15 @@ variable value : nat = 0
 constant admin : address = @tz1MZrh8CvYkp7BfLQMcm6mg5FvL5HRZfACw
 
 entry main(v : nat) {
-  // FIXME: this entry must
-  // ** be called only by admin address,
-  // ** the value v must be between 10 (included) and 20 (strictly)
-  // ** this value must be even, otherwise it fails with this following message : `Expected even value`
+  /////////////////////////////////////////////////////////////////////////////
+  //                                                                         //
+  // FIXME: this entry must                                                  //
+  // ** be called only by admin address,                                     //
+  // ** the value v must be between 10 (included) and 20 (strictly)          //
+  // ** this value must be even, otherwise it fails                          //
+  //    with this following message : `Expected even value`                  //
+  //                                                                         //
+  /////////////////////////////////////////////////////////////////////////////
   effect {
      value := v;
   }

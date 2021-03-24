@@ -2,7 +2,11 @@
 archetype rat_transfer
 
 entry payback () {
-  // FIXME: transfer 70% of the contract balance to caller (aka. sender)
+  /////////////////////////////////////////////////////////////////////////////
+  //                                                                         //
+  // FIXME: transfer 70% of the contract balance to caller (aka. sender)     //
+  //                                                                         //
+  /////////////////////////////////////////////////////////////////////////////
 }
 
 // Solution at the following address:
