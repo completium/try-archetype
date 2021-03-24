@@ -6,9 +6,9 @@ variable value : string = ""
 entry main () {
   /////////////////////////////////////////////////////////////////////////////
   //                                                                         //
-  // FIXME: assign value `Hello Tezos World`                                 //
+  // FIXME: assign `value` to `Hello Tezos World!`                           //
   // Solution below:                                                         //
-  // value := "Hello Tezos World"                                            //
+  // value := "Hello Tezos World!"                                           //
   //                                                                         //
   /////////////////////////////////////////////////////////////////////////////
 }
