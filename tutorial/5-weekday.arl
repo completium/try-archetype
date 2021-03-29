@@ -1,19 +1,23 @@
 
 archetype weekday
 
-variable n : nat = 0
+variable n : int = 0
 
 entry weekday (d : date) {
-  // FIXME: compute weekday for d date and assign this value to n
-  // weekday takes a date d and returns:
-  // 0 if sunday
-  // 1 if monday
-  // 2 if tuesday
-  // 3 if wednesday
-  // 4 if thursday
-  // 5 if friday
-  // 6 if saturday
-  // hint: use arithmetic operators with duration
+  /////////////////////////////////////////////////////////////////////////////
+  //                                                                         //
+  // FIXME: compute weekday for d date and assign this value to n            //
+  // weekday takes a date d and returns:                                     //
+  // 0 if sunday                                                             //
+  // 1 if monday                                                             //
+  // 2 if tuesday                                                            //
+  // 3 if wednesday                                                          //
+  // 4 if thursday                                                           //
+  // 5 if friday                                                             //
+  // 6 if saturday                                                           //
+  // hint: use arithmetic operators with duration                            //
+  //                                                                         //
+  /////////////////////////////////////////////////////////////////////////////
 }
 
 // Solution at the following address:
@@ -26,10 +30,10 @@ entry weekday (d : date) {
 
 // Commands to DEPLOY contract (in Terminal window below):
 // cd tutorial
-// completium-cli deploy weekday.arl
+// completium-cli deploy 5-weekday.arl
 
 // Command to CALL the contract (in Terminal window below):
-// completium-cli call weekday.arl --with 14
+// completium-cli call 5-weekday.arl --with '2008-11-28'
 
 // Command to VIEW the contract in BETTER CALL DEV (ctrl+click the generated URL)
-// completium-cli show url weekday.arl
+// completium-cli show url 5-weekday.arl

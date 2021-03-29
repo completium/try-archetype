@@ -33,7 +33,7 @@ The `tutorial` directory provides 8 basic exercises to discover Archetype:
 |  | File | Description |
 | -- | -- | :-- |
 | 1 | [Hello Tezos world](./tutorial/1-hello.arl) | Write and deploy your first contract |
-| 2 | [Execution conditions](./tutorial/2-exec_conditions.arl) | Syntax to establish business rules to execute an entry point |
+| 2 | [Execution conditions](./tutorial/2-exec_condition.arl) | Syntax to establish business rules to execute an entry point |
 | 3 | [Rational and transfer](./tutorial/3-rat_transfer.arl) | Use `rational` type for business formula |
 | 4 | [Date and duration](./tutorial/4-time_window.arl) | Use `duration` to establish time based execution conditions
 | 5 | [Dates arithmetic](./tutorial/5-weekday.arl) | Compute day of the week from date
@@ -51,7 +51,7 @@ You can use completium in VS Code in the Terminal (Menu Terminal/New Terminal).
 
 Show registered accounts
 
-`$ completium-cli show accounts`
+`$ completium-cli show account`
 
 You may want to register your own test account with a [faucet](https://faucet.tzalpha.net/) file:
 
@@ -61,13 +61,15 @@ It is *strongly* advised to develop and test on the test network. Check you are 
 
 `$ completium-cli show endpoint`
 
+Switch endpoint:
+
+`$ completium-cli switch endpoint`
+
 Deploy a contract:
 
 `$ completium-cli deploy <FILE.arl>`
 
 The entire list of commands is available [here](https://completium.com/docs/dapp-tools/completium-cli).
-
-Deploy a contract
 
 ## Archetype VS Code extension
 

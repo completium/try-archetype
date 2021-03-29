@@ -1,13 +1,17 @@
 
 archetype contract_called
 
-variable n : nat = 0
+variable n : nat = 42
 
 entry set_n(p : nat) {
   n := p
 }
 
-// FIXME: implements a getter named get_n for n value
+///////////////////////////////////////////////////////////////////////////////
+//                                                                           //
+// FIXME: implements a getter named get_n for n value                        //
+//                                                                           //
+///////////////////////////////////////////////////////////////////////////////
 
 // Solution at the following address:
 // https://completium.com/docs/dapp-tools/tutorials/archetype-callcontr
