@@ -11,9 +11,18 @@ Welcome to the Archetype Gitpod environement. It comes with the following instal
 
 You can develop, deploy, call and test a smart contract on the Tezos blockchain.
 
-## Your journey start here!
+## Your journey starts here!
 
-Open [Hello Tezos world.arl](./tutorial/1-hello.arl), fix the code, deploy and call the contract.
+First, check whether the test account has enough balance to run the tutorial; entrer this command in the Terminal below:
+```
+completium-cli show account
+```
+
+It displays the balance of the account named 'admin'. If the balance is below 50 ꜩ, then follow these [instructions](https://completium.com/docs/dapp-tools/tutorials/archetype-settings) to import a new account (or transfer 100 ꜩ to the admin address on testnet).
+
+If the balance is below 50 ꜩ, it is not enough to do the tutorial and you need to import a new faucet account.
+
+Then open [Hello Tezos world.arl](./tutorial/1-hello.arl), fix the code, deploy and call the contract.
 
 Then continue with tutorial's step 2 below.
 
