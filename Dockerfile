@@ -5,6 +5,6 @@ RUN npm i @completium/completium-cli@latest -g
 RUN wget -q https://raw.githubusercontent.com/edukera/completium-dapp-utils/master/admin.json
 RUN completium-cli init
 RUN completium-cli update binaries
-RUN completium-cli generate account admin --from-faucet admin.json
+RUN completium-cli import faucet admin.json as admin
 RUN completium-cli set account admin
 RUN sudo ln -s /home/gitpod/.completium/bin/archetype /usr/local/bin/
