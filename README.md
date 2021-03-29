@@ -14,9 +14,8 @@ You can develop, deploy, call and test a smart contract on the Tezos blockchain.
 ## Your journey starts here!
 
 First, check whether the test account has enough balance to run the tutorial; entrer this command in the Terminal below:
-```
-completium-cli show account
-```
+
+`completium-cli show account`
 
 It displays the balance of the account named 'admin'. If the balance is below 50 ꜩ, then follow these [instructions](https://completium.com/docs/dapp-tools/tutorials/archetype-settings) to import a new account (or transfer 100 ꜩ to the admin address on testnet).
 
