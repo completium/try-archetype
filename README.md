@@ -17,7 +17,7 @@ First, check whether the test account has enough balance to run the tutorial; en
 
 `completium-cli show account`
 
-It displays the balance of the account named 'admin'. If the balance is below 50 ꜩ, then follow these [instructions](https://completium.com/docs/dapp-tools/tutorials/archetype-settings) to import a new account (or transfer 100 ꜩ to the admin address on testnet).
+It displays the balance of the account named 'admin'. If the balance is below 50 ꜩ, then follow these [instructions](https://completium.com/docs/dapp-tools/gitpod#check-admin-account) to import a new account (or transfer 100 ꜩ to the admin address on testnet).
 
 If the balance is below 50 ꜩ, it is not enough to do the tutorial and you need to import a new faucet account.
 
