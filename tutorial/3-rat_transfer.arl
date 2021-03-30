@@ -18,7 +18,7 @@ entry payback () {
 // completium-cli deploy 3-rat_transfer.arl
 
 // Command to CALL the contract (in Terminal window below):
-// completium-cli call 3-rat_transfer.arl --amount 10
+// completium-cli call 3-rat_transfer --amount 10tz
 
 // Command to VIEW the contract in BETTER CALL DEV (ctrl+click the generated URL)
-// completium-cli show url 3-rat_transfer.arl
+// completium-cli show contract 3-rat_transfer
