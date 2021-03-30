@@ -21,7 +21,7 @@ It displays the balance of the account named 'admin'.
 
 If this balance is below 50 ꜩ, then follow these [instructions](https://completium.com/docs/dapp-tools/gitpod#check-admin-account) to import a new account (or transfer 100 ꜩ to the admin address on testnet).
 
-Then start the tutorial with [Hello Tezos world.arl](./tutorial/1-hello.arl), fix the code, deploy and call the contract.
+Then start the tutorial with [Hello Tezos world.arl](./tutorial/1-hello.arl): fix the code, deploy the contract, and call it.
 
 Then continue with tutorial's step 2 below.
 
