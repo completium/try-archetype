@@ -29,7 +29,7 @@ entry main(v : nat) {
 // completium-cli deploy 2-exec_condition.arl
 
 // Command to CALL the contract (in Terminal window below):
-// completium-cli call 2-exec_condition.arl --with 14
+// completium-cli call 2-exec_condition --with 14
 
 // Command to VIEW the contract in BETTER CALL DEV (ctrl+click the generated URL)
-// completium-cli show url 2-exec_condition.arl
+// completium-cli show contract 2-exec_condition

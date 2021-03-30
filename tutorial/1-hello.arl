@@ -28,9 +28,9 @@ entry main () {
 
 // Command to CALL the contract (in Terminal window below):
 //
-// completium-cli call 1-hello.arl
+// completium-cli call 1-hello
 
 // Command to VIEW the contract in BETTER CALL DEV (ctrl+click the generated URL)
 //
-// completium-cli show url 1-hello.arl
+// completium-cli show contract 1-hello
 
