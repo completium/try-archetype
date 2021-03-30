@@ -13,15 +13,15 @@ You can develop, deploy, call and test a smart contract on the Tezos blockchain.
 
 ## Your journey starts here!
 
-First, check whether the test account has enough balance to run the tutorial; entrer this command in the Terminal below:
+First, check whether the test account has enough balance to run the tutorial; entrer this command in the [Terminal](https://completium.com/docs/dapp-tools/gitpod#open-terminal) below:
 
 `completium-cli show account`
 
-It displays the balance of the account named 'admin'. If the balance is below 50 ꜩ, then follow these [instructions](https://completium.com/docs/dapp-tools/gitpod#check-admin-account) to import a new account (or transfer 100 ꜩ to the admin address on testnet).
+It displays the balance of the account named 'admin'.
 
-If the balance is below 50 ꜩ, it is not enough to do the tutorial and you need to import a new faucet account.
+If this balance is below 50 ꜩ, then follow these [instructions](https://completium.com/docs/dapp-tools/gitpod#check-admin-account) to import a new account (or transfer 100 ꜩ to the admin address on testnet).
 
-Then open [Hello Tezos world.arl](./tutorial/1-hello.arl), fix the code, deploy and call the contract.
+Then start the tutorial with [Hello Tezos world.arl](./tutorial/1-hello.arl), fix the code, deploy and call the contract.
 
 Then continue with tutorial's step 2 below.
 
