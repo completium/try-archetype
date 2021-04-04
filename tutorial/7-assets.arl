@@ -63,5 +63,5 @@ entry repaint_repaired (newc : color) {
 }
 
 // Solution at the following address:
-// https://completium.com/docs/dapp-tools/tutorials/archetype-assets
+// https://completium.com/docs/contract/tuto/archetype-assets
 // (ctrl+click to follow link)

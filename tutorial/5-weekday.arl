@@ -21,7 +21,7 @@ entry weekday (d : date) {
 }
 
 // Solution at the following address:
-// https://completium.com/docs/dapp-tools/tutorials/archetype-datearith
+// https://completium.com/docs/contract/tuto/archetype-datearith
 // (ctrl+click to follow link)
 
 // Commands to DEPLOY contract (in Terminal window below):

@@ -21,7 +21,7 @@ entry main(v : nat) {
 }
 
 // Solution at the following address:
-// https://completium.com/docs/dapp-tools/tutorials/archetype-execcond
+// https://completium.com/docs/contract/tuto/archetype-execcond
 // (ctrl+click to follow link)
 
 // Commands to DEPLOY contract (in Terminal window below):

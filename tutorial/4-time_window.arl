@@ -16,7 +16,7 @@ entry payback_after_period () {
 }
 
 // Solution at the following address:
-// https://completium.com/docs/dapp-tools/tutorials/archetype-datedur
+// https://completium.com/docs/contract/tuto/archetype-datedur
 // (ctrl+click to follow link)
 
 // Commands to DEPLOY contract (in Terminal window below):

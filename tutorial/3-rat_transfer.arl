@@ -10,7 +10,7 @@ entry payback () {
 }
 
 // Solution at the following address:
-// https://completium.com/docs/dapp-tools/tutorials/archetype-rattrans
+// https://completium.com/docs/contract/tuto/archetype-rattrans
 // (ctrl+click to follow link)
 
 // Commands to DEPLOY contract (in Terminal window below):

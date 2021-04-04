@@ -14,5 +14,5 @@ entry set_n(p : nat) {
 ///////////////////////////////////////////////////////////////////////////////
 
 // Solution at the following address:
-// https://completium.com/docs/dapp-tools/tutorials/archetype-callcontr
+// https://completium.com/docs/contract/tuto/archetype-callcontr
 // (ctrl+click to follow link)
