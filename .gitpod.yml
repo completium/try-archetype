@@ -21,6 +21,3 @@ github:
 vscode:
   extensions:
     - edukera.archetype@0.35.0:BwtJ6rwGmyJfrcEVrjJcIA==
-tasks:
-  - openMode: main
-    command: open /workspace/try-archetype/tutorial/1-hello.arl
