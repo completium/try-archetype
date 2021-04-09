@@ -37,4 +37,4 @@ tasks:
 
 
 
-      '&& open /workspace/try-archetype/README.md
+      '
