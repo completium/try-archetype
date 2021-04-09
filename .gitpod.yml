@@ -23,6 +23,8 @@ vscode:
     - edukera.archetype@0.35.0:BwtJ6rwGmyJfrcEVrjJcIA==
 tasks:
   - openMode: split-right
+    command: clear && open /workspace/try-archetype/README.md
+  - openMode: split-right
     command: |-
       clear && echo '
       Welcome to Try archetype!
@@ -38,8 +40,3 @@ tasks:
 
 
       '
-  - openMode: split-right
-    command: open /workspace/try-archetype/README.md
-
-  - openMode: main
-    command: open /workspace/try-archetype/tutorial/1-hello.arl
