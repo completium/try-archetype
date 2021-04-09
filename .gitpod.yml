@@ -22,8 +22,6 @@ vscode:
   extensions:
     - edukera.archetype@0.35.0:BwtJ6rwGmyJfrcEVrjJcIA==
 tasks:
-  - name: op
-    command: gp preview https://completium.com/docs/contract/tuto/archetype-hello
   - openMode: split-right
     command: |-
       clear && echo '
