@@ -1,20 +1,16 @@
-
 archetype hello
 
 variable value : string = ""
 
 entry main () {
-  /////////////////////////////////////////////////////////////////////////////
-  //                                                                         //
-  // FIXME: assign `value` to `Hello Tezos World!`                           //
-  // Solution below:                                                         //
-  // value := "Hello Tezos World!"                                           //
-  //                                                                         //
-  /////////////////////////////////////////////////////////////////////////////
+  ///////////////////////////////////////////////////////////////
+  //                                                           //
+  // FIXME: assign `value` to `Hello Tezos World!`             //                       //
+  //                                                           //
+  ///////////////////////////////////////////////////////////////
 }
 
-
-// Complete solution and information at the following address!!
+// Solution and information at the following address!!
 //
 // https://completium.com/docs/contract/tuto/archetype-hello
 // (ctrl+click to follow link)
@@ -30,7 +26,8 @@ entry main () {
 //
 // completium-cli call 1-hello
 
-// Command to VIEW the contract in BETTER CALL DEV (ctrl+click the generated URL)
+// Command to VIEW the contract in 
+// BETTER CALL DEV (ctrl+click the generated URL)
 //
 // completium-cli show contract 1-hello
 

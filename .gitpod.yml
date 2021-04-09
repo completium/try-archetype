@@ -27,8 +27,9 @@ tasks:
       clear && echo '
       Welcome to Try archetype!
 
-      You can read /workspace/try-archetype/README.md
-
+      Type in this terminal below: 
+      
+      sh start.sh
 
 
 
