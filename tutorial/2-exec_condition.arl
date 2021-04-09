@@ -1,4 +1,3 @@
-
 archetype exec_condition
 
 variable value : nat = 0
@@ -6,15 +5,15 @@ variable value : nat = 0
 constant admin : address = @tz1MZrh8CvYkp7BfLQMcm6mg5FvL5HRZfACw
 
 entry main(v : nat) {
-  /////////////////////////////////////////////////////////////////////////////
-  //                                                                         //
-  // FIXME: this entry must                                                  //
-  // ** be called only by admin address,                                     //
-  // ** the value v must be between 10 (included) and 20 (strictly)          //
-  // ** this value must be even, otherwise it fails                          //
-  //    with this following message : `Expected even value`                  //
-  //                                                                         //
-  /////////////////////////////////////////////////////////////////////////////
+  ////////////////////////////////////////////////////////////////////
+  //                                                                //
+  // FIXME: this entry must                                         //
+  // ** be called only by admin address,                            //
+  // ** the value v must be between 10 (included) and 20 (strictly) //
+  // ** this value must be even, otherwise it fails                 //
+  //    with this following message : `Expected even value`         //
+  //                                                                //
+  ////////////////////////////////////////////////////////////////////
   effect {
      value := v;
   }
@@ -31,5 +30,6 @@ entry main(v : nat) {
 // Command to CALL the contract (in Terminal window below):
 // completium-cli call 2-exec_condition --with 14
 
-// Command to VIEW the contract in BETTER CALL DEV (ctrl+click the generated URL)
+// Command to VIEW the contract in BETTER CALL DEV 
+// (ctrl+click the generated URL)
 // completium-cli show contract 2-exec_condition

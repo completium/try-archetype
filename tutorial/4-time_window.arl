@@ -1,18 +1,18 @@
-
 archetype time_window
 
 variable creation : date = now
 
 entry payback_after_period () {
-  /////////////////////////////////////////////////////////////////////////////
-  //                                                                         //
-  // FIXME: implement the following execution conditions:                    //
-  // ** contract balance must be positive                                    //
-  // ** the call to the contract must be after the creation date             //
-  //    plus 5 minutes and 10 seconds                                        //
-  // ** the effect of the contract balance is to transfer balance to caller  //
-  //                                                                         //
-  /////////////////////////////////////////////////////////////////////////////
+  ///////////////////////////////////////////////////////////////////
+  //                                                               //
+  // FIXME: implement the following execution conditions:          //
+  // ** contract balance must be positive                          //
+  // ** the call to the contract must be after the creation date   //
+  //    plus 5 minutes and 10 seconds                              //
+  // ** the effect of the contract balance is to transfer balance  //
+  //    to caller                                                  //
+  //                                                               //
+  ///////////////////////////////////////////////////////////////////
 }
 
 // Solution at the following address:
@@ -26,5 +26,6 @@ entry payback_after_period () {
 // Command to CALL the contract (in Terminal window below):
 // completium-cli call 4-time_window
 
-// Command to VIEW the contract in BETTER CALL DEV (ctrl+click the generated URL)
+// Command to VIEW the contract in BETTER CALL DEV 
+// (ctrl+click the generated URL)
 // completium-cli show contract 4-time_window

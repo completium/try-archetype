@@ -8,12 +8,13 @@ entry set_r(p : nat) {
 }
 
 entry inspect(addr : address) {
-///////////////////////////////////////////////////////////////////////////////
-//                                                                           //
-// FIXME: call entry "%get_n" from addr address contract                     //
-// with `set_r` callback, which store the result value to r of this contract //
-//                                                                           //
-///////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////
+//                                                                //
+// FIXME: call entry "%get_n" from addr address contract          //
+// with `set_r` callback, which store the result value            //
+// to r of this contract                                          //
+//                                                                //
+////////////////////////////////////////////////////////////////////
 }
 
 // Solution at the following address:

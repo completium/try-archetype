@@ -1,23 +1,22 @@
-
 archetype weekday
 
 variable n : int = 0
 
 entry weekday (d : date) {
-  /////////////////////////////////////////////////////////////////////////////
-  //                                                                         //
-  // FIXME: compute weekday for d date and assign this value to n            //
-  // weekday takes a date d and returns:                                     //
-  // 0 if sunday                                                             //
-  // 1 if monday                                                             //
-  // 2 if tuesday                                                            //
-  // 3 if wednesday                                                          //
-  // 4 if thursday                                                           //
-  // 5 if friday                                                             //
-  // 6 if saturday                                                           //
-  // hint: use arithmetic operators with duration                            //
-  //                                                                         //
-  /////////////////////////////////////////////////////////////////////////////
+  ///////////////////////////////////////////////////////////////////
+  //                                                               //
+  // FIXME: compute weekday for d date and assign this value to n  //
+  // weekday takes a date d and returns:                           //
+  // 0 if sunday                                                   //
+  // 1 if monday                                                   //
+  // 2 if tuesday                                                  //
+  // 3 if wednesday                                                //
+  // 4 if thursday                                                 //
+  // 5 if friday                                                   //
+  // 6 if saturday                                                 //
+  // hint: use arithmetic operators with duration                  //
+  //                                                               //
+  ///////////////////////////////////////////////////////////////////
 }
 
 // Solution at the following address:
@@ -31,5 +30,6 @@ entry weekday (d : date) {
 // Command to CALL the contract (in Terminal window below):
 // completium-cli call 5-weekday --with '2008-11-28'
 
-// Command to VIEW the contract in BETTER CALL DEV (ctrl+click the generated URL)
+// Command to VIEW the contract in BETTER CALL DEV 
+// (ctrl+click the generated URL)
 // completium-cli show contract 5-weekday

@@ -18,14 +18,15 @@ transition init () {
   with effect { () /* nothing */}
 }
 
-///////////////////////////////////////////////////////////////////////////////
-//                                                                           //
-// FIXME: implement transitions                                             //
-// ** from InProgress to Completed when value > 1                            //
-//    and transfer balance to caller                                         //
-// ** from InProgress to Completed and transfer 50% of balance to caller     //
-//                                                                           //
-///////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////
+//                                                                 //
+// FIXME: implement transitions                                    //
+// ** from InProgress to Completed when value > 1                  //
+//    and transfer balance to caller                               //
+// ** from InProgress to Completed and transfer 50% of balance     //
+//    to caller                                                    //
+//                                                                 //
+/////////////////////////////////////////////////////////////////////
 
 // Solution at the following address:
 // https://completium.com/docs/contract/tuto/archetype-statem

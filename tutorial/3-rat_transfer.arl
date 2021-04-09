@@ -1,12 +1,12 @@
-
 archetype rat_transfer
 
 entry payback () {
-  /////////////////////////////////////////////////////////////////////////////
-  //                                                                         //
-  // FIXME: transfer 70% of the contract balance to caller (aka. sender)     //
-  //                                                                         //
-  /////////////////////////////////////////////////////////////////////////////
+  //////////////////////////////////////////////////////////////////
+  //                                                              //
+  // FIXME: transfer 70% of the contract balance                  //
+  // to caller (aka. sender)                                      //
+  //                                                              //
+  //////////////////////////////////////////////////////////////////
 }
 
 // Solution at the following address:
@@ -20,5 +20,6 @@ entry payback () {
 // Command to CALL the contract (in Terminal window below):
 // completium-cli call 3-rat_transfer --amount 10tz
 
-// Command to VIEW the contract in BETTER CALL DEV (ctrl+click the generated URL)
+// Command to VIEW the contract in BETTER CALL DEV 
+// (ctrl+click the generated URL)
 // completium-cli show contract 3-rat_transfer
