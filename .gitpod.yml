@@ -22,4 +22,19 @@ vscode:
   extensions:
     - edukera.archetype@0.35.0:BwtJ6rwGmyJfrcEVrjJcIA==
 tasks:
-  - command: echo 'open /workspace/try-archetype/tutorial/1-hello.arl'
+  - openMode: split-right
+    command: |-
+      clear && echo '
+      Welcome to Gitpod!
+
+      If you haven'\''t forked Babel yet and you want to prepare a PR, you can use
+      the Ctrl+P (or ⌘P) shortcut, type `>Fork` and press ENTER: Gitpod\ will
+      create the fork for you.
+
+      <-- The other terminal is building Babel. It should automatically rebuild
+          when you change a file, so you don'\''t need to worry about it.
+          If it'\''s still building, please wait until it'\''s finished!
+
+      If you want to run the tests, you can run `yarn jest` in this terminal,
+      or filter by package name (for example, `yarn jest babel-parser`).
+      '
