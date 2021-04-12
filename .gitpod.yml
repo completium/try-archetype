@@ -22,13 +22,13 @@ vscode:
   extensions:
     - edukera.archetype@0.35.0:BwtJ6rwGmyJfrcEVrjJcIA==
 tasks:
-  - openMode: split-right
+  - openMode: tab-after
     command: |-
       clear && echo '
       Welcome to Try archetype!
 
-      Type in this terminal below: 
-      
+      Type in this terminal below:
+
       sh start.sh
 
 

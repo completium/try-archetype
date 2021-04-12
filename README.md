@@ -3,7 +3,7 @@
 </div>
 
 Welcome to the Archetype Gitpod environement. It comes with the following installed packages:
-* Archetype 1.2.2
+* Archetype 1.2.3
 * Archetype VS Code [extension](https://marketplace.visualstudio.com/items?itemName=edukera.archetype)
 * [Completium CLI](https://completium.com/docs/dapp-tools/completium-cli)
 * Tezos client
