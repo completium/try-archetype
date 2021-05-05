@@ -3,11 +3,8 @@
 </div>
 
 Welcome to the Archetype Gitpod environement. It comes with the following installed packages:
-* Archetype 1.2.3
 * Archetype VS Code [extension](https://marketplace.visualstudio.com/items?itemName=edukera.archetype)
 * [Completium CLI](https://completium.com/docs/dapp-tools/completium-cli)
-* Tezos client
-* Taquito
 
 You can develop, deploy, call and test a smart contract on the Tezos blockchain.
 
