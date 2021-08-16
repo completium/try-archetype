@@ -20,12 +20,12 @@ github:
     addLabel: false
 vscode:
   extensions:
-    - edukera.archetype@0.38.0
+    - edukera.archetype
     - baking-bad.michelson@0.1.0
 tasks:
   - openMode: tab-after
     command: |-
-      clear && echo '
+      npm i @completium/completium-cli@latest -g && completium-cli init && completium-cli install bin archetype && completium-cli import faucet /home/gitpod/admin.json as admin && completium-cli set account admin && sudo ln -s /home/gitpod/.completium/bin/archetype /usr/local/bin/ && clear && echo '
       Welcome to Try archetype!
 
       Type in this terminal below:
