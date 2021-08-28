@@ -25,7 +25,7 @@ vscode:
 tasks:
   - openMode: tab-after
     command: |-
-      npm i @completium/completium-cli@latest -g && completium-cli init && completium-cli install bin archetype && completium-cli import faucet /home/gitpod/admin.json as admin && completium-cli set account admin && sudo ln -s /home/gitpod/.completium/bin/archetype /usr/local/bin/ && clear && echo '
+      npm i @completium/completium-cli@latest -g && completium-cli init && completium-cli import faucet /home/gitpod/admin.json as admin && completium-cli set account admin && clear && echo '
       Welcome to Try archetype!
 
       Type in this terminal below:
