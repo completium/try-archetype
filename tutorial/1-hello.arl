@@ -5,7 +5,7 @@ variable value : string = ""
 entry main () {
   ///////////////////////////////////////////////////////////////
   //                                                           //
-  // FIXME: assign `value` to `Hello Tezos World!`             //                       //
+  // FIXME: assign `value` to `Hello Tezos World!`             //
   //                                                           //
   ///////////////////////////////////////////////////////////////
 }
@@ -24,9 +24,9 @@ entry main () {
 
 // Command to CALL the contract (in Terminal window below):
 //
-// completium-cli call 1-hello
+// completium-cli call 1-hello --entry main
 
-// Command to VIEW the contract in 
+// Command to VIEW the contract in
 // BETTER CALL DEV (ctrl+click the generated URL)
 //
 // completium-cli show contract 1-hello

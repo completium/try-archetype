@@ -14,9 +14,6 @@ entry main(v : nat) {
   //    with this following message : `Expected even value`         //
   //                                                                //
   ////////////////////////////////////////////////////////////////////
-  effect {
-     value := v;
-  }
 }
 
 // Solution at the following address:
@@ -28,8 +25,8 @@ entry main(v : nat) {
 // completium-cli deploy 2-exec_condition.arl
 
 // Command to CALL the contract (in Terminal window below):
-// completium-cli call 2-exec_condition --with 14
+// completium-cli call 2-exec_condition --entry main --arg '{"v" : 14}'
 
-// Command to VIEW the contract in BETTER CALL DEV 
+// Command to VIEW the contract in BETTER CALL DEV
 // (ctrl+click the generated URL)
 // completium-cli show contract 2-exec_condition

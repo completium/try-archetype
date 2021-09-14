@@ -28,8 +28,8 @@ entry weekday (d : date) {
 // completium-cli deploy 5-weekday.arl
 
 // Command to CALL the contract (in Terminal window below):
-// completium-cli call 5-weekday --with '2008-11-28'
+// completium-cli call 5-weekday --arg '{ "d" : "2008-11-28" }'
 
-// Command to VIEW the contract in BETTER CALL DEV 
+// Command to VIEW the contract in BETTER CALL DEV
 // (ctrl+click the generated URL)
 // completium-cli show contract 5-weekday

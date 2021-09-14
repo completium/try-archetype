@@ -24,8 +24,8 @@ entry payback_after_period () {
 // completium-cli deploy 4-time_window.arl --amount 5tz
 
 // Command to CALL the contract (in Terminal window below):
-// completium-cli call 4-time_window
+// completium-cli call 4-time_window --entry payback_after_period
 
-// Command to VIEW the contract in BETTER CALL DEV 
+// Command to VIEW the contract in BETTER CALL DEV
 // (ctrl+click the generated URL)
 // completium-cli show contract 4-time_window
