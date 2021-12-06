@@ -5,3 +5,4 @@ RUN wget -q https://raw.githubusercontent.com/edukera/completium-dapp-utils/mast
 
 RUN npm i @completium/completium-cli -g
 RUN completium-cli init
+
