@@ -1,6 +1,5 @@
-<div style='margin-left:200px; margin-bottom:40px'>
-<img src="./img/archetype-logo.png" alt="drawing" width="200"/>
-</div>
+![GitHub-Mark-Light](./img/archetype-logo.png#gh-dark-mode-only)
+![GitHub-Mark-Light](./img/archetype-logo-light.png#gh-light-mode-only)
 
 Welcome to the Archetype Gitpod environement. It comes with the following installed packages:
 * Archetype VS Code [extension](https://marketplace.visualstudio.com/items?itemName=edukera.archetype)
