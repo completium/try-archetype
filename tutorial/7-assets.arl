@@ -27,7 +27,7 @@ asset vehicle {
   {"vin0011"; Yellow; 2; 2019-02-01}
 }
 
-entry addvehicle (pvin : string) {
+entry add_vehicle (pvin : string) {
   //////////////////////////////////////////////////////////////////
   //                                                              //
   // FIXME: add a vehicle with pvin key to the collection         //
@@ -41,14 +41,6 @@ entry repair (k : string) {
   // FIXME: repair the vehicule with k key                        //
   // repair must increment `nbrepairs` and update `lastrepair`    //
   // with current date                                            //
-  //                                                              //
-  //////////////////////////////////////////////////////////////////
-}
-
-entry repair_oldest() {
-  //////////////////////////////////////////////////////////////////
-  //                                                              //
-  // FIXME: repair the 3 last vehicules sorted by lastrepair      //
   //                                                              //
   //////////////////////////////////////////////////////////////////
 }
