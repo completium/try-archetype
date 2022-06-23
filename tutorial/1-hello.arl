@@ -15,19 +15,3 @@ entry main () {
 // https://completium.com/docs/contract/tuto/archetype-hello
 // (ctrl+click to follow link)
 
-// Commands to DEPLOY contract (in Terminal window below):
-//
-// cd tutorial
-// completium-cli deploy 1-hello.arl
-//
-// NB: do not forget to save the file!! (ctrl/cmd+s)
-
-// Command to CALL the contract (in Terminal window below):
-//
-// completium-cli call 1-hello --entry main
-
-// Command to VIEW the contract in
-// BETTER CALL DEV (ctrl+click the generated URL)
-//
-// completium-cli show contract 1-hello
-
