@@ -6,6 +6,6 @@ RUN wget -q https://raw.githubusercontent.com/edukera/completium-dapp-utils/mast
 RUN sudo touch /.containerenv
 RUN sudo apt-get install -y tezos-client
 
-RUN npm i '@completium/completium-cli@0.4.0' -g
+RUN npm i '@completium/completium-cli@0.4.3' -g
 RUN completium-cli init
 RUN completium-cli mockup init
