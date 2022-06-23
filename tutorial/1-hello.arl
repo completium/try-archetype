@@ -1,6 +1,6 @@
 archetype hello
 
-variable value : string = ""
+variable str : string = ""
 
 entry main () {
   ///////////////////////////////////////////////////////////////
