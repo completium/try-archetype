@@ -1,6 +1,6 @@
-archetype time_window
+archetype time_window(const creation_date : date)
 
-variable creation : date = now
+variable creation : date = creation_date
 
 entry payback_after_period () {
   ///////////////////////////////////////////////////////////////////
